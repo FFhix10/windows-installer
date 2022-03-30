@@ -1,0 +1,156 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@continuous-auth/semantic-release-npm > lodash':
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - eslint > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - semantic-release > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @babel/generator > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @babel/core > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - eslint > inquirer > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - eslint > table > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - eslint-plugin-ava > enhance-visitors > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - semantic-release > @semantic-release/commit-analyzer > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - semantic-release > @semantic-release/github > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - semantic-release > @semantic-release/npm > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - semantic-release > @semantic-release/release-notes-generator > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @babel/generator > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @babel/core > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @babel/core > @babel/generator > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @babel/core > @babel/traverse > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - semantic-release > @semantic-release/commit-analyzer > conventional-commits-parser > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - semantic-release > @semantic-release/release-notes-generator > conventional-commits-parser > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - semantic-release > @semantic-release/release-notes-generator > conventional-changelog-writer > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @babel/core > @babel/template > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @babel/core > @babel/generator > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @babel/core > @babel/traverse > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @babel/core > @babel/helpers > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @babel/core > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @ava/babel-preset-transform-test-files > babel-plugin-espower > @babel/generator > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @ava/babel-preset-stage-4 > @babel/plugin-transform-dotall-regex > @babel/helper-regex > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @ava/babel-preset-stage-4 > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @babel/core > @babel/helpers > @babel/template > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @babel/core > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @ava/babel-preset-transform-test-files > babel-plugin-espower > @babel/generator > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @babel/core > @babel/helpers > @babel/traverse > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @ava/babel-preset-stage-4 > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @ava/babel-preset-stage-4 > @babel/plugin-transform-modules-commonjs > @babel/helper-simple-access > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @ava/babel-preset-stage-4 > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @ava/babel-preset-stage-4 > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/traverse > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @ava/babel-preset-stage-4 > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @ava/babel-preset-stage-4 > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/template > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @ava/babel-preset-stage-4 > @babel/plugin-transform-modules-commonjs > @babel/helper-simple-access > @babel/template > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @ava/babel-preset-stage-4 > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > @babel/template > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @ava/babel-preset-stage-4 > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @ava/babel-preset-stage-4 > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/traverse > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @ava/babel-preset-stage-4 > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @ava/babel-preset-stage-4 > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @ava/babel-preset-stage-4 > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > @babel/helper-simple-access > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @ava/babel-preset-stage-4 > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @ava/babel-preset-stage-4 > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @ava/babel-preset-stage-4 > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/template > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @ava/babel-preset-stage-4 > @babel/plugin-transform-modules-commonjs > @babel/helper-module-transforms > @babel/helper-simple-access > @babel/template > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @ava/babel-preset-stage-4 > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @ava/babel-preset-stage-4 > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @ava/babel-preset-stage-4 > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @ava/babel-preset-stage-4 > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @ava/babel-preset-stage-4 > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @ava/babel-preset-stage-4 > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/generator > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @ava/babel-preset-stage-4 > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @ava/babel-preset-stage-4 > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @ava/babel-preset-stage-4 > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @ava/babel-preset-stage-4 > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @ava/babel-preset-stage-4 > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @ava/babel-preset-stage-4 > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @ava/babel-preset-stage-4 > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @ava/babel-preset-stage-4 > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
+    - ava > @ava/babel-preset-stage-4 > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2022-03-30T19:14:04.492Z'
